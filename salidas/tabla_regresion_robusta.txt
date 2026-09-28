@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            retorno_emb   R-squared:                       0.024
+Model:                            OLS   Adj. R-squared:                  0.023
+Method:                 Least Squares   F-statistic:                     4.938
+Date:                Mon, 28 Sep 2026   Prob (F-statistic):           0.000573
+Time:                        19:26:43   Log-Likelihood:                -2695.1
+No. Observations:                3016   AIC:                             5400.
+Df Residuals:                    3011   BIC:                             5430.
+Df Model:                           4                                         
+Covariance Type:                  HC3                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0721      0.116      0.623      0.534      -0.155       0.299
+tasa_10a      -0.0108      0.013     -0.816      0.414      -0.037       0.015
+vix           -0.0149      0.007     -2.107      0.035      -0.029      -0.001
+embig_peru     0.0014      0.000      2.971      0.003       0.000       0.002
+volumen    -4.037e-09   8.15e-09     -0.495      0.621      -2e-08    1.19e-08
+==============================================================================
+Omnibus:                     1419.259   Durbin-Watson:                   1.980
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           123156.671
+Skew:                          -1.320   Prob(JB):                         0.00
+Kurtosis:                      34.194   Cond. No.                     2.91e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 2.91e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.

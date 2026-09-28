@@ -1,0 +1,3 @@
+Durbin-Watson: 1.9795
+Breusch-Pagan p-valor: 0.0000
+Jarque-Bera p-valor: 0.0000
