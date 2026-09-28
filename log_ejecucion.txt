@@ -7,3 +7,27 @@
 [2026-09-28 17:11:58.955684] EMB extraído: 3017 filas, HTTP 200
 
 [2026-09-28 17:11:58.956058] Conectando a FRED...
+
+============================================================
+[2026-09-28 18:11:07.607321] INICIO DE EXTRACCIÓN EMBIG PERÚ (BCRP)
+============================================================
+
+[2026-09-28 18:11:07.607516] Extrayendo PD04709XD desde BCRP...
+[2026-09-28 18:11:09.304695] Respuesta HTTP: 200
+[2026-09-28 18:11:09.304916] Datos recibidos: 2 elementos
+[2026-09-28 18:11:09.305595] ❌ ERROR al extraer PD04709XD: Mixing dicts with non-Series may lead to ambiguous ordering.
+
+[2026-09-28 18:11:09.305898] FIN DE EXTRACCIÓN EMBIG PERÚ
+============================================================
+
+============================================================
+[2026-09-28 18:14:28.539884] INICIO DE EXTRACCIÓN EMBIG PERÚ (BCRP)
+============================================================
+
+[2026-09-28 18:14:28.540004] Extrayendo PD04709XD desde BCRP...
+[2026-09-28 18:14:30.220954] Respuesta HTTP: 200
+[2026-09-28 18:14:30.235907] PD04709XD extraído: 90 filas
+[2026-09-28 18:14:30.235960] Archivo guardado: /content/drive/MyDrive/SILVA BACILIO LEONNY YUVELI/N°3 BASE DE DATOS Y CÓDIGOS SILVA BACILIO LEONNY/datos_crudos/datos_crudos_PD04709XD_2024200528H.csv
+
+[2026-09-28 18:14:30.236233] FIN DE EXTRACCIÓN EMBIG PERÚ
+============================================================
